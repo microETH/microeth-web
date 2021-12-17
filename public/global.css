@@ -1,0 +1,280 @@
+
+/*
+ * Typography
+ */
+
+body, p, a, h1, h2, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+    color: #eeeeee;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.65em;
+    margin-bottom: 24px;
+}
+
+blockquote {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+span.big-h1 {
+    font-size: 170px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    /*text-transform: uppercase;*/
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+
+h3 {
+    /*
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    */
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: none;
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+a {
+
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.left { text-align: left; }
+.center { text-align: center; }
+.right { text-align: right; }
+
+.strike { text-decoration: line-through; }
+
+
+/* ---------------------------------------- */
+
+/*
+ * Block: Base class
+ */
+
+.block {
+    min-width: 300px;
+    box-sizing: border-box;
+    display: block;
+    background-color: #282c34;
+    padding: 48px 8px 64px 8px;
+    text-align: left;
+    color: #eeeeee;
+    overflow-x: hidden;
+}
+
+.block h2 {
+    text-align: center;
+}
+
+.block h2:after {
+    background-color: #eeeeee;
+    content: "";
+    height: 3px;
+    width: 36px;
+    display: block;
+    margin: 28px auto;
+}
+
+.block p {
+    color: #eeeeee;
+}
+
+/*
+ * Block: Alternate
+ */
+
+.block.alt {
+    background-color: #1f2226;
+    color: #eeeeee;
+}
+
+.block.alt p {
+    color: #eeeeee;
+}
+
+/*
+ * Buttons
+ */
+
+.block .button {
+    font-family: Roboto Mono;
+    display: inline-block;
+    background-color: #eeeeee;
+    color: #1f2226;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 16px;
+    margin-top: 6px;
+    padding: 16px 48px;
+    cursor: pointer;
+}
+
+.block .button:hover {
+    background-color: #1f2226;
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+/*
+ * Gallery
+ */
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    margin: 12px;
+    max-width: 340px;
+    border: 2px solid #9c9c9c; padding: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    .gallery img {
+        max-width: 90%;
+    }
+}
+
+.gallery .row {
+    text-align: center;
+}
+
+/* ---------------------------------------- */
+
+/*
+ * Font-awesome icons
+ */
+
+.icon-twitter-48 > i { font-size: 48px; text-decoration: none; }
+.icon-github-48 > i { font-size: 48px; text-decoration: none; }
+
+/* ---------------------------------------- */
+
+/*
+ * Intro
+ */
+
+.block.intro {
+    text-align: center;
+}
+
+.block.intro img {
+    width: 50%;
+    max-width: 1000px;
+}
+
+.block.intro h1, .block.intro h2, .block.intro p {
+    color: #ffffff;
+}
+
+.block.intro p.subtitle {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 32px;
+}
+
+@media screen and (max-width: 800px) {
+    .block.intro h1 { font-size: 40px; }
+    .block.intro .big-h1 { font-size: 72px; }
+}
+
+/*
+ * Menu
+ */
+
+.block.menu {
+    background-color: #888f9d;
+    padding: 0px;
+    text-align: center;
+    color: #2c2c2c;
+    font-weight: bold;
+    font-size: 0px;
+    border: 0px;
+}
+
+.block.menu a,
+.block.menu a:active,
+.block.menu a:visited {
+    font-size: 14px;
+    color: #2c2c2c;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.block.menu a:hover
+{
+    background-color: #1f2226;
+    color: #ffffff;
+}
+
+/*
+ * Footer
+ */
+
+.block.footer {
+    background-color: #888f9d;
+    padding: 16px;
+    text-align: center;
+    color: #282c34;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.block.footer a,
+.block.footer a:hover,
+.block.footer a:active,
+.block.footer a:visited {
+    color: #282c34;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.block.footer i {
+    vertical-align: middle;
+}
+
+.block.footer a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
