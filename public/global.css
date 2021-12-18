@@ -244,10 +244,10 @@ table th, table td {
  */
 
 .block.footer {
-    background-color: #888f9d;
+    background-color: #1f2226;
     padding: 16px;
     text-align: center;
-    color: #282c34;
+    color: #888f9d;
     font-size: 14px;
     font-weight: bold;
 }
@@ -256,7 +256,7 @@ table th, table td {
 .block.footer a:hover,
 .block.footer a:active,
 .block.footer a:visited {
-    color: #282c34;
+    color: #888f9d;
     text-decoration: none;
     margin: 0 8px;
 }
