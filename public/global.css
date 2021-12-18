@@ -216,6 +216,7 @@ table th, table td {
 .block.intro p.subtitle {
     font-size: 18px;
     font-style: italic;
+    margin-top: 32px;
     margin-bottom: 32px;
 }
 
@@ -240,6 +241,7 @@ table th, table td {
 .resources img {
     padding: 8px;
     border: 1px solid #888888;
+    max-width: 80%;
 }
 
 /*
