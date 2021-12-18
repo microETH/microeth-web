@@ -205,7 +205,7 @@ table th, table td {
 }
 
 .block.intro img {
-    width: 50%;
+    width: 90%;
     max-width: 1000px;
 }
 
@@ -218,11 +218,6 @@ table th, table td {
     font-style: italic;
     margin-top: 32px;
     margin-bottom: 32px;
-}
-
-@media screen and (max-width: 800px) {
-    .block.intro h1 { font-size: 40px; }
-    .block.intro .big-h1 { font-size: 72px; }
 }
 
 /*
