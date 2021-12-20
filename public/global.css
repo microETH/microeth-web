@@ -185,14 +185,21 @@ table th, table td {
     text-align: center;
 }
 
+/*
+ * Address label
+ */
+
+.eth-address {
+    word-wrap: break-word;
+}
+
 /* ---------------------------------------- */
 
 /*
  * Font-awesome icons
  */
 
-.icon-twitter-48 > i { font-size: 48px; text-decoration: none; }
-.icon-github-48 > i { font-size: 48px; text-decoration: none; }
+.icon-48 > i { font-size: 48px; text-decoration: none; }
 
 /* ---------------------------------------- */
 
